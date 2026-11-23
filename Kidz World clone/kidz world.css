@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.navbar {
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.navbar h2 {
+    font-size: 22px;
+    color: black;
+}
+
+.navbar span {
+    font-weight: bold;
+}
+
+.cart {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.banner {
+    height: 410px;
+    width: 1510;
+    background-image: url("kw-background.png");
+    background-size: cover;
+    
+}
+
+
+
+.banner-text {
+    position: absolute;
+    top: 60px;
+    left: 5%;
+    z-index: 3;
+    color: white;
+}
+
+.banner-text h1 {
+    font-family: Georgia, serif;
+    font-size: 60px;
+    line-height: 1.35;
+    margin: 0;
+}
+
+.banner-text h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.kids-image {
+    position: absolute;
+    right: 4%;
+    bottom: 0;
+    width: 39%;
+    height: 90%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.kids-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+
+.books-section {
+    width: 100%;
+    padding: 18px 38px 30px;
+    margin-top: 150px;
+    background-color: white;
+}
+
+.books-section h2 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.books {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.book {
+    width: 174px;
+    flex-shrink: 0;
+}
+
+
+.book img {
+    width: 174px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+
+.book h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.book p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom b {
+    font-size: 17px;
+}
+
+button {
+    background-color: #6090ff;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #376be0;
+}
+
+.games-section {
+    padding: 145px 5% 40px;
+    background-color: white;
+}
+
+.games-section h2 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.games {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.game {
+    width: 23%;
+    flex-shrink: 0;
+}
+
+
+.game-image {
+    width: 100%;
+    height: 240px;
+    background-color: #ffca28;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.game-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.game h3 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.game p {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+
+.game-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.game-bottom b {
+    font-size: 17px;
+}
+
+.game button {
+    background-color: #6090ff;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.game button:hover {
+    background-color: #376be0;
+}
+
+
+
+
+
+.handmade-section {
+    padding: 145px 3% 40px;
+    background-color: white;
+}
+
+.handmade-section h2 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.handmade-products {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.handmade-card {
+    width: 23%;
+    flex-shrink: 0;
+}
+
+
+.handmade-image {
+    width: 100%;
+    height: 240px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.handmade-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.handmade-card h3 {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.handmade-card p {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+
+.handmade-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.handmade-bottom b {
+    font-size: 17px;
+}
+
+.handmade-card button {
+    background-color: #6090ff;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.handmade-card button:hover {
+    background-color: #376be0;
+}
+
+
